@@ -22,8 +22,11 @@ def analyze_equipment(image_path):
 
 # Define preprocess_image function
 def preprocess_image(image_path):
-    # Add your preprocessing logic here
-    pass
+     img = cv2.imread(image_path)
+    img = cv2.resize(img, (224, 224))
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = img / 255.0
+    return img
 
 # Waste Identification Function
 def classify_waste(image_path):
