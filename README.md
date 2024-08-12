@@ -6,7 +6,7 @@
  1. Moving import statements zikuwe inside the functions
  2. Context manager for opening and closing images
  3. file paths are constructed dynamically using os.path.join()
- 4. Nimedefine preprocess_image function
+ 
 
-    Lemme know kama ukona any queries
+Lemme know kama ukona any queries
     
